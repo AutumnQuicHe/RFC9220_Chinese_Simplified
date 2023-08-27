@@ -4,7 +4,7 @@ anchor: "Authors_Address"
 weight: 800
 ---
 
-#### Ryan Hamilton
+##### Ryan Hamilton
 
 Google
 
@@ -18,4 +18,3 @@ Email: rch@google.com
 
 - [YunzheZJU](https://github.com/YunzheZJU)
   - Email: yunzhe@zju.edu.cn
-
