@@ -1,6 +1,6 @@
 ---
-title: "RFC8999 QUIC版本通用属性"
-anchor: "RFC8999_QUIC"
+title: "RFC9220 通过HTTP/3引导网络套接字"
+anchor: "RFC9220_QUIC"
 weight: 1
 ---
 
@@ -14,9 +14,9 @@ weight: 1
   <tr>
     <td>更多信息：</td>
     <td colspan="2">
-      <a href="https://datatracker.ietf.org/doc/rfc8999">数据追踪</a>|
-      <a href="https://datatracker.ietf.org/ipr/search/?rfc=8999&submit=rfc">知识产权</a>|
-      <a href="https://www.rfc-editor.org/info/rfc8999">信息页</a>
+      <a href="https://datatracker.ietf.org/doc/rfc9220">数据追踪</a>|
+      <a href="https://datatracker.ietf.org/ipr/search/?rfc=9220&submit=rfc">知识产权</a>|
+      <a href="https://www.rfc-editor.org/info/rfc9220">信息页</a>
     </td>
   </tr>
   <tr>
@@ -26,7 +26,7 @@ weight: 1
   <tr>
     <td>RFC编号：</td>
     <td colspan="2">
-      <a href="https://www.rfc-editor.org/info/rfc8999">8999</a>
+      <a href="https://www.rfc-editor.org/info/rfc9220">9220</a>
     </td>
   </tr>
   <tr>
@@ -35,7 +35,7 @@ weight: 1
   </tr>
   <tr>
     <td>出版时间：</td>
-    <td colspan="2">2021年5月</td>
+    <td colspan="2">2022年6月</td>
   </tr>
   <tr>
     <td>国际标准期刊编号：</td>
@@ -43,7 +43,7 @@ weight: 1
   </tr>
   <tr>
     <td>作者：</td>
-    <td colspan="2">M. Thomson, Ed. <br><i>Mozilla</i></td>
+    <td colspan="2">R. Hamilton<br><i>Google</i></td>
   </tr>
 </table>
  
