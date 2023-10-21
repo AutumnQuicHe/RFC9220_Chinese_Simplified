@@ -14,7 +14,7 @@ rank: "h1"
 《[HTTP/3](/RFC9114_Chinese_Simplified/)》的[附录A.3](/RFC9114_Chinese_Simplified/\#A.3_HTTP2_SETTINGS_Parameters)要求HTTP/3分别注册设置。
 `SETTINGS_ENABLE_CONNECT_PROTOCOL`值是`0x08`（十进制值为8），就像在HTTP/2中那样。
 
-如果服务端圣母支持扩展的`CONNECT`方法，但是却收到了一个不识别或不支持的`:protocol`值，服务端{{< req_level SHOULD >}}给请求回复`501`（未实现）状态码（详见《[HTTP](https://www.rfc-editor.org/rfc/rfc9110)》[第15.6.2章](https://www.rfc-editor.org/rfc/rfc9110.html\#name-501-not-implemented)）。
+如果服务端声明支持扩展的`CONNECT`方法，但是却收到了一个不识别或不支持的`:protocol`值，服务端{{< req_level SHOULD >}}给请求回复`501`（未实现）状态码（详见《[HTTP](https://www.rfc-editor.org/rfc/rfc9110)》[第15.6.2章](https://www.rfc-editor.org/rfc/rfc9110.html\#name-501-not-implemented)）。
 服务端{{< req_level MAY >}}通过“问题细节（problem details）”回复提供更多信息<sup>《[RFC7807](https://www.rfc-editor.org/rfc/rfc7807.html)》</sup>。
 
 HTTP/3流的关闭也类似于TCP连接在《[RFC6455](https://www.rfc-editor.org/rfc/rfc9220.html#RFC6455)》中所述的方式关闭。
